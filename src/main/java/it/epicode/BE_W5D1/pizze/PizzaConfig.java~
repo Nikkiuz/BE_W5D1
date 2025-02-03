@@ -23,22 +23,4 @@ public class PizzaConfig {
 		p.setPrezzo(5);
 		return p;
 	}
-
-	@Bean
-	public Pizza funghiSalsiccia() {
-		Pizza p = new Pizza();
-		p.setNomePizza("Funghi e salsiccia");
-		p.setCalorie(700);
-		p.setPrezzo(9);
-		return p;
-	}
-
-	@Bean
-	public Pizza capricciosa() {
-		Pizza p = new Pizza();
-		p.setNomePizza("Capricciosa");
-		p.setCalorie(800);
-		p.setPrezzo(10);
-		return p;
-	}
 }
